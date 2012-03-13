@@ -1,0 +1,621 @@
+<html>
+<head>
+<title>Programming in Python</title>
+</head>
+
+<body>
+
+<center>
+<a href="#announce">Announcements</a> |
+<a href="#summary">Summary</a> |
+<a href="#readings">Readings</a> |
+<a href="#software">Software</a> |
+<a href="#schedule">Schedule</a>
+</center>
+
+<h2>Programming in Python</h2>
+
+<p>
+Spring Term, 2012<br>
+(10 Sessions) Wednesdays 6 - 9 pm, starting Wednesday March 28th.
+</p>
+
+<p>
+</p>
+This course is based on a combination of the public course:
+<a href="http://staff.washington.edu/jon/python-course/">Programming in Python, Autumn 2011</a> and some content from <a href="http://briandorsey.info/uwpython/index.html">Internet Programming in Python, Winter 2011</a>
+</p>
+
+<hr>
+
+<p>
+<a name="announce">
+<b>Announcements and updates:</b>
+<br>None, yet.
+</p>
+
+<p>
+The <a href="#schedule">schedule</a> is updated every week, consult frequently.
+
+<p>
+</p>
+
+<hr>
+<p>
+<a name="summary">
+<b>Course objectives:</b> Introduce the Python language, its most
+important libraries, and its recommended programming styles and
+idioms.  Teach how to solve typical programming problems in Pythonic
+style.  Survey some exemplary Python applications and systems.
+
+<p>
+<b>Prerequisites:</b> No previous Python experience is required.
+This course is not intended for absolute beginners in programming,
+but does include a self-contained review of elementary features.
+Students must be able to use a command line, edit a text file, and
+download and install software.  Students should have some prior
+exposure to programming in any language, sufficient to write very
+simple programs or scripts that use variables, conditionals (if ...),
+and iteration (loops).
+</p>
+
+<p>
+<b>Textbooks:</b> The textbook comes in two versions: a
+printed book named
+<a href="http://www.cambridge.org/us/catalogue/catalogue.asp?isbn=9780521725965">
+<em>Python for Software Design</em><a>, and a free online version named
+<a href="http://www.greenteapress.com/thinkpython/thinkpython.html">
+<em>Think Python</em></a>.
+Despite the different titles, the two versions have the same contents.
+</p>
+
+<p>
+<b>Instructor:</b> <a href="http://briandorsey.info">
+Brian Dorsey</a>.
+<BR/>Brian Dorsey is a database and Python developer with over 10 years of
+experience using Python professionally. He currently works at Vulcan Inc.,
+developing command line tools, simple web applications, Windows services,
+HTTP/JSON APIs and the occasional iPhone prototype. He is excited about
+information, databases, user experience, testing and glue code. Brian is a
+co-organizer of the Seattle Python Interest Group (www.seapig.org) and has
+given several talks and tutorials at conferences and user groups.
+</p>
+
+<p>
+<b>Technology Requirements:</b> Students must have access to a
+computer for their assignments and projects, where they can install
+software (the course does not provide a computer laboratory).  Older
+computers and computers with modest resources (including netbooks)
+will work.  Any popular operating system will work, including Windows,
+Mac OS X, and Linux.  It is recommended that students have a portable
+computer to bring to class. Internet access will be provided at
+classes.
+</p>
+
+<p>
+<b>Assessment criteria:</b> The course is graded Pass/Fail, based on
+satisfactory completion of required programming assignments and
+classroom presentations.  Attendance is required; more than two
+unexcused absences will result in a Fail.
+</p>
+
+<hr>
+
+<h3>
+<a name="readings">
+Textbook
+</h3>
+
+<p>
+The textbook comes in two versions, a printed book:
+<p>
+<a href="http://www.cambridge.org/us/catalogue/catalogue.asp?isbn=9780521725965">
+<em>Python for Software Design: How to Think Like a Computer
+Scientist</em></a> by Allen B. Downey.  Cambridge University Press, 2009.<br>
+</p>
+
+<p>
+and a free online version:
+</p>
+
+<p>
+<a href="http://www.greenteapress.com/thinkpython/thinkpython.html">
+<em>Think Python: How to Think Like a Computer Scientist</em></a>
+</p>
+
+<p>
+Despite the different titles, the two versions have the same contents,
+including the same chapter, section, and exercise numbers.  You may
+use the version you prefer.
+</p>
+
+<p>
+This text is an excellent introduction to Python language fundamentals
+and semantics.  There are many features and topics it does not discuss.
+We will discuss them in class and assign supplementary readings.
+
+<h3>Summaries</h3>
+
+<p>
+<a href="http://coffeeghost.net/pybat/python_cheatsheet.png">
+Quick Python Script Explanation for Programmers</a> (one page)<br>
+<a href="http://www.poromenos.org/tutorials/python">
+Learn Python in 10 minutes</a><br>
+<a href="http://pages.physics.cornell.edu/~myers/teaching/ComputationalMethods/python/NanoPy/NanoPy.html">
+NanoPy</a><br>
+</p>
+
+<h3>Reference</h3>
+
+<p>
+<a href="http://rgruet.free.fr/PQR27/PQR2.7.html">
+Python 2.7 Quick Reference</a>
+(awesomely dense and complete)<br>
+<a href="http://docs.python.org">Python 2.x documentation</a>
+(official documentation from python.org)<br>
+</p>
+
+<h3>Supplementary texts</h3>
+
+<p>
+<a href="http://docs.python.org/tutorial/">The Python Tutorial</a>
+(from python.org)<br>
+</p>
+
+<h3>IDLE Interactive Development Environment</h3>
+
+<p>
+<a href="http://docs.python.org/library/idle.html">Reference from python.org</a><br>
+<a href="https://hkn.eecs.berkeley.edu/~dyoo/python/idle_intro/">Quick tour with screenshots</a><br>
+</p>
+
+<h3>Other resources</h3>
+
+<p>
+<a href="http://staff.washington.edu/jon/python-course/python-intro.html">
+Examples and Resources</a>
+(other courses and books, sample code, notable Python libraries and scriptable applications)<br>
+</p>
+
+<hr>
+
+<h3>
+<a name="software">
+Software
+</h3>
+
+<p>
+Students will need Python installed on their computers.
+Python comes already installed on Macs and most Linux distributions.
+</p>
+
+<p>
+There are two different "current" versions of Python, 2.x and 3.x.  We
+will be using 2.x, where x means any sufficiently recent version.  2.7
+is most recent, but 2.6 will also work.
+</p>
+
+<p>
+The current Python 2.x version is available
+<a href="http://www.python.org/download/">here</a>.  I use this
+source for Windows.  For the Mac, I
+use <a href="http://mxcl.github.com/homebrew/">homebrew</a>.
+For Linux, I use the distro's package manager
+(Synaptic or apt-get on Ubuntu, for example).
+</p>
+
+<hr>
+
+<h3>
+<a name="schedule">
+Schedule and Assignments
+</h3>
+
+<p>
+Wednesdays 6 - 9 pm, starting Wednesday March 28th (10 Sessions).
+</p>
+
+<p>
+Additional topics and readings will be added, consult
+frequently.
+</p>
+
+<p>
+Read the assignment and do the assigned exercises in the
+week <em>before</em> class. Turn in the exercises (hardcopy) in class.
+Here <em>PySD/TPy</em> refers to the textbook, either <em>Python for
+Software Design</em> (printed) or <em>Think Python</em> (online).
+Both versions use the same chapter numbers (but in the <em>TPy</em>
+web pages, Chapter 2 is in file <tt>book003.html</tt> etc.)
+</p>
+
+<table border cellpadding=10>
+<tr><td>Week</td><td>Date</td><td>Topics</td>
+<td>Assignments due<br>
+(optional readings in parentheses)</td></tr>
+
+<tr><td>1</td><td>March 28</td>
+<td>
+Introductions.
+Some Python applications and systems.
+Installing Python.
+Using the command interpreter and development environment.
+Finding and using the documentation.  Getting help.<br><br>
+
+<!--
+Lecture notes:
+<a href="intro.txt">intro.txt</a>,
+<a href="python.txt">python.txt</a>,
+<a href="lightning.txt">lightning.txt</a>,
+<a href="values.txt">values.txt</a><br>
+
+Code and data:
+<a href="schedule.py">schedule.py</a>,
+<a href="students.txt">students.txt</a>,
+<a href="schedule.txt">schedule.txt</a>
+-->
+</td>
+<td>
+Summaries
+<a href="http://coffeeghost.net/pybat/python_cheatsheet.png">(here)</a>,
+<a href="http://www.poromenos.org/tutorials/python">(here)</a>.
+</td></tr>
+
+<tr><td>2</td><td></td>
+<td>
+Variables, values, expressions, and assignment.
+Functions. Definition and use.  Arguments.
+Block structure. Scope.
+Modules and import.<br><br>
+Boolean expressions.  Conditionals and control flow.  Iteration and recursion.<br><br>
+
+<!--
+Lecture notes:
+<a href="review_2.txt">review_2.txt</a>,
+<a href="assign.txt">assign.txt</a>,
+<a href="boolean.txt">boolean.txt</a>,
+<a href="iteration.txt">iteration.txt</a>,
+<a href="functions.txt">functions.txt</a><br>
+
+Code:
+<a href="repetition.py">repetition.py</a>,
+<a href="avg.py">avg.py</a>,
+<a href="scope.py">scope.py</a><br><br>
+
+Exercise: my <a href="print_grid.py">solution</a>
+and <a href="comments_2.txt">comments</a><br><br>
+-->
+
+</td>
+<td><em>PySD/TPy</em>, Chs.
+<a href="http://www.greenteapress.com/thinkpython/html/book002.html">(1)</a>,
+<a href="http://www.greenteapress.com/thinkpython/html/book003.html">2</a>,
+<a href="http://www.greenteapress.com/thinkpython/html/book004.html">3</a>,
+<a href="http://www.greenteapress.com/thinkpython/html/book005.html">(4)</a><br><br>
+<em>PySD/TPy</em>
+<a href="http://www.greenteapress.com/thinkpython/html/book006.html">5</a>,
+<a href="http://www.greenteapress.com/thinkpython/html/book007.html">6</a>,
+<a href="http://www.greenteapress.com/thinkpython/html/book008.html">7</a><br><br>
+</td></tr>
+
+<tr><td>3</td><td></td>
+<td>
+Data types. Sequences. Strings. Files. Exceptions. Text
+Processing. Regular expressions. Unicode.<br><br>
+
+<!--
+Lecture notes:
+<a href="functions.txt">functions.txt</a> again,
+<a href="strings.txt">strings.txt</a>,
+<a href="files.txt">files.txt</a>,
+<a href="biopython.txt">biopython.txt</a><br>
+<br>
+
+Code and data:
+<a href="functions.py">functions.py</a>,
+<a href="parameters.py">parameters.py</a>,
+<a href="strings_files.py">strings_files.py</a>,
+<a href="command_line.py">command_line.py</a>,
+<a href="concordance.py">concordance.py</a>,
+<a href="bio_demo.py">bio_demo.py</a>,
+<a href="ceru_human.sp">ceru_human.sp</a>
+(same as <a href="ceru_human.txt">ceru_human.txt</a>)
+<br><br>
+
+Exercise: my <a href="concordance.py">solution</a>
+and <a href="comments_3.txt">comments</a><br><br>
+-->
+
+</td>
+<td><em>PySD/TPy</em>, Chs.
+<a href="http://www.greenteapress.com/thinkpython/html/book009.html">8</a>,
+<a href="http://www.greenteapress.com/thinkpython/html/book010.html">9</a>,
+<a href="http://www.greenteapress.com/thinkpython/html/book015.html">14</a><br><br>
+
+(<a href="http://docs.python.org/library/stdtypes.html#string-methods">
+String methods<a>)<br>
+(RegEx
+<a href="http://docs.python.org/howto/regex.html">How-To</a>)<br>
+(Unicode <a href="http://docs.python.org/howto/unicode.html">How-To</a>,
+<a href="http://farmdev.com/talks/unicode/">more</a>)<br><br>
+</td></tr>
+
+<tr><td>4</td><td></td>
+<td>
+Data types.  Sequences again.  Tuples, Lists, Dictionaries, Sets. Mutability.  Aliasing.
+Argument passing.  List comprehensions.<br><br>
+Data type case studies and review.<br><br>
+
+<!--
+Lecture notes:
+<a href="week_4.txt">week_4.txt</a>,
+<a href="sequence.txt">sequence.txt</a><br>
+Code:
+<a href="traffic.py">traffic.py</a>,
+<a href="phones.py">phones.py</a><br><br>
+
+Exercise: my <a href="most_frequent.py">solution</a>
+and <a href="comments_4.txt">comments</a><br><br>
+-->
+
+<!--
+Lecture notes:
+<a href="week_5.txt">week_5.txt</a>,
+<a href="collections.txt">collections.txt</a>,
+<a href="functional.txt">functional.txt</a><br>
+Code:
+<a href="phones.py">phones.py</a>,
+<a href="comprehensions.py">comprehensions.py</a>,
+<a href="roman.py">roman.py</a>,
+<a href="corrector.py">corrector.py</a>,
+<a href="set.py">set.py</a><br>
+Sample data:
+<a href="big.txt">big.txt</a>,
+<a href="words">words</a><br><br>
+
+Exercise: my solutions <a href="sorted_string.py">sorted_string.py</a>
+and <a href="sorted_list.py">sorted_list.py</a>,
+and <a href="comments_5.txt">comments</a><br><br>
+-->
+
+</td>
+
+<td><em>PySD/TPy</em>, Chs.
+<a href="http://www.greenteapress.com/thinkpython/html/book011.html">10</a>,
+<a href="http://www.greenteapress.com/thinkpython/html/book012.html">11</a>,
+<a href="http://www.greenteapress.com/thinkpython/html/book013.html">12</a>,
+<a href="http://www.greenteapress.com/thinkpython/html/book014.html">13</a><br><br>
+
+    <em>Python Tutorial</em>, sections
+<a href="http://docs.python.org/tutorial/introduction.html#lists">3.1.4</a>,
+<a href="http://docs.python.org/tutorial/datastructures.html">5</a><br><br>
+
+<a href="http://www.norvig.com/spell-correct.html">Spelling corrector</a><br><br>
+
+</td></tr>
+
+<tr><td>5</td><td></td>
+<td>
+    Build a dynamic HTTP server from scratch. <br>
+    We will cover just enough networking and HTTP to build a simple working server.
+</td>
+
+<td>
+    <a href="http://news.ycombinator.com/item?id=487992">
+        Very quick overview of web fundamentals </a><br>
+    <a href="http://en.wikipedia.org/wiki/Internet_Protocol_Suite">
+        Internet Protocol Suite</a><br>
+    <a href="http://en.wikipedia.org/wiki/Internet_socket">
+        Internet Socket </a><br>
+    <a href="http://www.jmarshall.com/easy/http/">
+        HTTP Made Really Easy (Only the HTTP 1.0 section, 1.1 optional) </a><br>
+
+    <br>bonus reading:<br>
+    <a href="http://docs.python.org/howto/sockets.html">sockets module</a><br>
+    skim this (Python, batteries included!): <br>
+    <a href="http://docs.python.org/library/internet">python internet modules</a>
+</td></tr>
+
+<tr><td>6</td><td></td>
+<td>
+Classes, instances, and methods.  Object-oriented programming.
+Inheritance and duck typing.<br><br>
+
+
+<!--
+Lecture notes:
+<a href="classes.txt">classes.txt</a><br>
+Code:
+<a href="patient.py">patient.py</a>,
+<a href="vehicle.py">vehicle.py</a>,
+<a href="simulator.py">simulator.py</a>,
+<a href="pedestrian.py">pedestrian.py</a><br><br>
+
+Exercise: my solution <a href="unlisted_words.py">unlisted_words.py</a>
+<br><br>
+-->
+
+</td>
+
+<td><em>PySD/TPy</em>, Chs.
+<a href="http://www.greenteapress.com/thinkpython/html/book016.html">15</a>,
+<a href="http://www.greenteapress.com/thinkpython/html/book017.html">16</a>,
+<a href="http://www.greenteapress.com/thinkpython/html/book018.html">17</a>,
+<a href="http://www.greenteapress.com/thinkpython/html/book019.html">18</a><br><br>
+
+
+</td></tr>
+
+<tr><td>7</td><td></td>
+<td>
+Extending Python. Special attributes and methods. Iterators and
+Generators.  Protocols.  <br><br>
+
+<!--
+Lecture notes:
+<a href="week_7.txt">week_7.txt</a>,
+<a href="vector.txt">vector.txt</a>,
+<a href="generator.txt">generator.txt</a>,
+<a href="protocol.txt">protocol.txt</a><br>
+Code:
+<a href="vector.py">vector.py</a>,
+<a href="generator.py">generator.py</a><br>
+Lab Exercise: <a href="objects_lab.py">objects_lab.py</a><br><br>
+
+Exercise: my solution <a href="atom.py">atom.py</a><br><br>
+
+Recommended readings (read as much as your time and interest allows):<br>
+<a href="http://docs.python.org/reference/datamodel.html#special-method-names">Special Methods</a>,
+learn about <tt>__str__</tt>, <tt>__add__</tt> and their many many cousins.<br>
+<a href="http://www.dabeaz.com/generators/">
+Generator Tricks for Systems Programmers</a><br><br>
+-->
+
+</td>
+<td>
+
+<em>Python Tutorial</em>, Section
+<a href="http://docs.python.org/tutorial/classes.html">9</a>
+(except 9.9 - 9.11)<br><br>
+
+TBD<br><br>
+
+</td></tr>
+
+<tr><td>8</td><td></td>
+<td>
+Classes and inheritance again. Decorators.  The debugger.<br><br>
+
+
+
+<!--
+Lecture notes:
+<a href="week_8.txt">week_8.txt</a>,
+<a href="decorator.txt">decorator.txt</a>,
+<a href="debugger.txt">debugger.txt</a><br>
+Code:
+<a href="decorator.py">decorator.py</a>,
+<a href="repetition.py">repetition.py</a><br>
+Lab Exercise: <a href="inheritance_lab.py">inheritance_lab.py</a><br><br>
+
+Exercise: my solution <a href="bag.py">bag.py</a><br><br>
+
+Recommended readings (read as much as your time and interest allows):<br>
+<a href="http://stackoverflow.com/questions/739654/understanding-python-decorators#1594484">Decorators</a>, gives some idea of what's possible<br>
+<a href="http://docs.python.org/library/pdb.html">pdb - The Python Debugger</a><br>
+<a href="http://www.cafepy.com/article/python_types_and_objects/">Python Types and Objects</a>,
+<a href="http://www.cafepy.com/article/python_attributes_and_methods/">Attributes and Methods</a>, if you want to know what's <em>really</em> going on<br><br>
+-->
+
+</td>
+<td>
+
+<em>Python Tutorial</em>, Sections
+<a href="http://docs.python.org/tutorial/classes.html">9.9 - 9.11</a><br><br>
+
+TBD<br><br>
+
+</td>
+</td></tr>
+
+
+<tr><td>9</td><td></td>
+<td>
+Python ecosystem.  Packages.  PyPI.  Installation.
+Python with other languages.<br><br>
+
+
+<!--
+Lecture notes:
+<a href="week_9.txt">week_9.txt</a>,
+<a href="packages.txt">packages.txt</a>,
+<a href="install.txt">install.txt</a>,
+<a href="other_languages.txt">other_languages.txt</a><br>
+Code:
+<a href="setup.py">setup.py</a>,
+<a href="integrate.py">integrate.py</a>,
+<a href="integrate.pyx">integrate.pyx</a>,
+<a href="setup_integrate.py">setup_integrate.py</a>,
+<a href="integrate.c">integrate.c</a><br><br>
+
+Lab Exercise: <a href="isa_hasa_lab.py">isa_hasa_lab.py</a><br><br>
+
+Exercise: my solution <a href="decorator_generator.py">decorator_generator.py</a><br><br>
+
+
+Recommended readings (read as much as your time and interest allows):<br>
+<a href="http://docs.python.org/tutorial/modules.html">Modules and Packages</a><br>
+<a href="http://wiki.python.org/moin/CheeseShopTutorial">CheeseShop Tutorial (PyPI)</a><br>
+<a href="http://docs.python.org/install/">Installation</a>
+and <a href="http://docs.python.org/distutils/">distutils</a><br>
+<a href="http://docs.python.org/extending/extending.html">C-API</a>,
+<a href="http://www.swig.org/doc.html">SWIG</a>,
+<a href="http://cython.org/">Cython</a><br><br>
+-->
+
+</td>
+<td>
+
+
+TBD<br><br>
+
+</td>
+</td></tr>
+
+
+<tr><td>10</td><td></td>
+<td>
+Databases and Python<br><br>
+
+<!--
+Recommended readings (read as much as your time and interest allows):<br>
+<a href="http://philip.greenspun.com/sql/introduction.html">Introduction</a>
+to relational databases and SQL (source of the mailing list example),
+more <a href="http://www.stanford.edu/~ouster/cgi-bin/cs142-fall10/lecture.php?topic=sql">here</a>,
+<a href="http://dev.mysql.com/doc/refman/5.0/en/tutorial.html">here</a>,
+and <a href="http://sql.learncodethehardway.org/book/">here</a>.<br>
+SQLite: <a href="http://www.sqlite.org/quickstart.html">quick start</a>,
+<a href="http://www.sqlite.org/sqlite.html">shell commands</a>,
+<a href="http://www.sqlite.org/lang.html">language reference</a><br>
+Python's built-in <a href="http://docs.python.org/library/sqlite3.html">sqlite3</a> library<br>
+<br>
+
+Lecture notes:
+<a href="week_10.txt">week_10.txt</a>,
+<a href="databases.txt">databases.txt</a><br>
+Code:
+<a href="mailing_list">mailing_list</a>,
+<a href="mailing_list_data">mailing_list_data</a>,
+<a href="mailing_list_queries">mailing_list_queries</a>,
+<a href="mailing_list_queries.py">mailing_list_queries.py</a><br><br>
+
+Lab Exercise: <a href="database_lab.txt">database_lab.txt</a>,
+solution: <a href="database_lab.py">database_lab.py</a><br><br>
+
+<a href="http://docs.python.org/glossary.html">Python Glossary</a>,
+a summary of where we've been, with hints about topics we didn't cover.
+<br><br>
+-->
+
+</td>
+<td>TBD<br><br>
+
+</td></tr>
+
+
+</table>
+
+<p>
+<center>
+<a href="#announce">Announcements</a> |
+<a href="#summary">Summary</a> |
+<a href="#readings">Readings</a> |
+<a href="#software">Software</a> |
+<a href="#schedule">Schedule</a>
+</center>
+</p>
+
+<hr>
+
+</body>
+</html>
