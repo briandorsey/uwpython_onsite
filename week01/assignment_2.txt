@@ -1,0 +1,16 @@
+
+All of these have varied difficulty, if you're already a python guru, pick
+something challenging.
+
+- Coding is the only way to learn to code. Do a CodingBat exercise every day. Complete any 6 by next week.
+
+- Pick one exercise from assigned chapters which looks challenging, complete and email to me.
+
+- Pick something you'd like to automate. Do some research (1 hour max). Can it be done using Python? Can it be done with the standard library? What other modules look helpful? Email me your results. Limit to a paragraph or two with web links to modules.
+
+
+It's a heavy load this week, if something has to give, do the work in this order:
+- Readings
+- CodingBat
+- Exercise from TPy
+- Automation research.
