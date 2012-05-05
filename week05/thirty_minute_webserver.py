@@ -24,6 +24,8 @@ MIME_TYPES = {'.jpg': 'image/jpg',
              '.png': 'image/png',
              '.html': 'text/html',
              '.pdf': 'application/pdf'}
+
+
 RESPONSE_HEADERS = {}
 
 RESPONSE_HEADERS[200] =\
