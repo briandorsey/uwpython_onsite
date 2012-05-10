@@ -26,13 +26,14 @@ class Vehicle(object):
         possibly respond to signals from the environment
         """
         self.x += dt * self.v
+        
 
     def draw(self, view):
         """
         draw self at position in view
         """
         l = len(self.icon)
-        if 0 < self.x < len(view) - l:
+        if 0 < self.x < (len(view) - l):
             view[self.x:self.x + l] = self.icon
 
 
