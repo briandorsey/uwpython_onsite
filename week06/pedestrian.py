@@ -5,7 +5,7 @@ From Jon Jacky's Intro to Python course:
 """
 
 
-class pedestrian(object):
+class Pedestrian(object):
     """
     Not a subclass of vehicle, but has the same methods
     """
@@ -23,5 +23,5 @@ class pedestrian(object):
             view[self.pos] = 'P'
 
 if __name__ == '__main__':
-    p0 = pedestrian(10)
+    p0 = Pedestrian(10)
     print p0
