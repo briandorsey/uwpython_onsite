@@ -49,11 +49,33 @@ for i in my_xrange(3):
 # generator expression returns result after 20+ sec
 # sum(2*i for i in xrange(100000000))
 
-import time
 
+######################################
+
+class IterateMe(object):
+    limit = 3
+    current = 0
+
+    def __iter__(self):
+        return self
+    
+    def next(self):
+        self.current += 1
+        if self.current > self.limit:
+            raise StopIteration
+        else:
+            return self.current
+
+import time
+# generate values which will never be repeated
 def timer(count):
     i = 0
     while i < count:
         i += 1
         time.sleep(1)
-        yield i
+        yield time.time()
+
+# generate lines from a file, without needing to read entire file into memory
+def lines():
+    for line in open('generator.py'):
+        print len(line)
