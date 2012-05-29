@@ -1,0 +1,309 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>7873A117-7B8C-477C-92FB-C9FB93683073</UUID>
+        <nextObjectID>115</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>358</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Chart</key>
+                        <data>
+		GU6L8ftLWMP/xeJGAe0aBGZ2W1NUQYIkGJlpLWTZYag=
+		</data>
+                        <key>Document</key>
+                        <data>
+		b1LcKBr2++gOTmItn2jYRReasnQ+iSwsFyS3c8TMQYc=
+		</data>
+                        <key>Event</key>
+                        <data>
+		/4hl8Rly0KxwMsXT65YMfSP/1qbfqFD+IXU5Gy+gEwE=
+		</data>
+                        <key>Look</key>
+                        <data>
+		eDzY5GNZdLbe1PgenzCXsLUk9AUjoed5egxoLxoKrjU=
+		</data>
+                        <key>Row</key>
+                        <data>
+		U92LC4GOJDLT7wQ06vyvo3uIk0vwYwbIN6cM4bBWtuE=
+		</data>
+                        <key>Tag</key>
+                        <data>
+		VngNljvbxpITaqPRTnx+RNu7uyIxnXFkWWUdy3kzJ4o=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array>
+                        <string>3.0</string>
+                    </array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="EVENT" id="z102">
+        <attribute name="title" type="string">PyPI</attribute>
+        <attribute name="start" type="int64">1009915200</attribute>
+        <attribute name="showdescender" type="bool">1</attribute>
+        <attribute name="offsetformat" type="encodable">YnBsaXN0MDDUAQIDBAUIMzRUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABqgkKGSEiIyorLC1VJG51bGzXCwwNDg8QERITFBUWFxNfEBJkYXRlQ29tcG9uZW50U3R5bGVfEBFlcmFDb21wb25lbnRTdHlsZVpOUy5uYXR1cmFsWU5TLmZvcm1hdFYkY2xhc3NdTlMuYXR0cmlidXRlc18QEnRpbWVDb21wb25lbnRTdHlsZYAHgAgIgAaACYACgAjTGhsPHB4gWk5TLm9iamVjdHNXTlMua2V5c6EdgAShH4ADgAVfEBFmb3JtYXR0ZXJCZWhhdmlvchEEENIkJSYnWCRjbGFzc2VzWiRjbGFzc25hbWWjJygpXxATTlNNdXRhYmxlRGljdGlvbmFyeVxOU0RpY3Rpb25hcnlYTlNPYmplY3RQEAEQANIkJS4ypC8wMSlfEA9CRERhdGVGb3JtYXR0ZXJfEA9OU0RhdGVGb3JtYXR0ZXJbTlNGb3JtYXR0ZXJfEA9CRERhdGVGb3JtYXR0ZXISAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABHAE0AXABxAIUAkACaAKEArwDEAMYAyADJAMsAzQDPANEA2ADjAOsA7QDvAPEA8wD1AQkBDAERARoBJQEpAT8BTAFVAVYBWAFaAV8BZAF2AYgBlAGmAasAAAAAAAACAQAAAAAAAAA1AAAAAAAAAAAAAAAAAAABvQ==
+</attribute>
+        <attribute name="notes" type="string">Need repository! </attribute>
+        <attribute name="imagemaxsize" type="float">200</attribute>
+        <attribute name="end" type="int64">1041451200</attribute>
+        <attribute name="color" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBVTlNSR0JcTlNDb2xvclNwYWNlViRjbGFzc08QJzAuODYwMDAwMDE0MyAwLjg1MDAwMDAyMzggMC43Nzk5OTk5NzE0ABACgALSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQ29sb3JYTlNPYmplY3QSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcggRFh8oMjU6PEBGTVNgZ5GTlZqjrrG5wscAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</attribute>
+        <relationship name="row" type="1/1" destination="ROW" idrefs="z108"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="EVENT" id="z103">
+        <attribute name="title" type="string">Catalog SIG</attribute>
+        <attribute name="start" type="int64">946756800</attribute>
+        <attribute name="showdescender" type="bool">1</attribute>
+        <attribute name="offsetformat" type="encodable">YnBsaXN0MDDUAQIDBAUIMzRUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABqgkKGSEiIyorLC1VJG51bGzXCwwNDg8QERITFBUWFxNfEBJkYXRlQ29tcG9uZW50U3R5bGVfEBFlcmFDb21wb25lbnRTdHlsZVpOUy5uYXR1cmFsWU5TLmZvcm1hdFYkY2xhc3NdTlMuYXR0cmlidXRlc18QEnRpbWVDb21wb25lbnRTdHlsZYAHgAgIgAaACYACgAjTGhsPHB4gWk5TLm9iamVjdHNXTlMua2V5c6EdgAShH4ADgAVfEBFmb3JtYXR0ZXJCZWhhdmlvchEEENIkJSYnWCRjbGFzc2VzWiRjbGFzc25hbWWjJygpXxATTlNNdXRhYmxlRGljdGlvbmFyeVxOU0RpY3Rpb25hcnlYTlNPYmplY3RQEAEQANIkJS4ypC8wMSlfEA9CRERhdGVGb3JtYXR0ZXJfEA9OU0RhdGVGb3JtYXR0ZXJbTlNGb3JtYXR0ZXJfEA9CRERhdGVGb3JtYXR0ZXISAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABHAE0AXABxAIUAkACaAKEArwDEAMYAyADJAMsAzQDPANEA2ADjAOsA7QDvAPEA8wD1AQkBDAERARoBJQEpAT8BTAFVAVYBWAFaAV8BZAF2AYgBlAGmAasAAAAAAAACAQAAAAAAAAA1AAAAAAAAAAAAAAAAAAABvQ==
+</attribute>
+        <attribute name="notes" type="string">Need index! Catalog SIG created, metadata defined by PEP 214 \u2600 PEP 314. Distutils modified to use this metadata.</attribute>
+        <attribute name="imagemaxsize" type="float">200</attribute>
+        <attribute name="end" type="int64">978379200</attribute>
+        <attribute name="color" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBVTlNSR0JcTlNDb2xvclNwYWNlViRjbGFzc08QJzAuODYwMDAwMDE0MyAwLjg1MDAwMDAyMzggMC43Nzk5OTk5NzE0ABACgALSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQ29sb3JYTlNPYmplY3QSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcggRFh8oMjU6PEBGTVNgZ5GTlZqjrrG5wscAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</attribute>
+        <relationship name="row" type="1/1" destination="ROW" idrefs="z108"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CHART" id="z104">
+        <attribute name="viewmode" type="int16">0</attribute>
+        <attribute name="useautotickmarkinterval" type="bool">1</attribute>
+        <attribute name="useautodaterange" type="bool">1</attribute>
+        <attribute name="useautodateformat" type="bool">1</attribute>
+        <attribute name="tickmarkunit" type="int16">5</attribute>
+        <attribute name="tickmarkinterval" type="int16">1</attribute>
+        <attribute name="start" type="int64">852250328</attribute>
+        <attribute name="offsetformat" type="encodable">YnBsaXN0MDDUAQIDBAUIMzRUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABqgkKGSEiIyorLC1VJG51bGzXCwwNDg8QERITFBUWFxNfEBJkYXRlQ29tcG9uZW50U3R5bGVfEBFlcmFDb21wb25lbnRTdHlsZVpOUy5uYXR1cmFsWU5TLmZvcm1hdFYkY2xhc3NdTlMuYXR0cmlidXRlc18QEnRpbWVDb21wb25lbnRTdHlsZYAHgAgIgAaACYACgAjTGhsPHB4gWk5TLm9iamVjdHNXTlMua2V5c6EdgAShH4ADgAVfEBFmb3JtYXR0ZXJCZWhhdmlvchEEENIkJSYnWCRjbGFzc2VzWiRjbGFzc25hbWWjJygpXxATTlNNdXRhYmxlRGljdGlvbmFyeVxOU0RpY3Rpb25hcnlYTlNPYmplY3RQEAEQANIkJS4ypC8wMSlfEA9CRERhdGVGb3JtYXR0ZXJfEA9OU0RhdGVGb3JtYXR0ZXJbTlNGb3JtYXR0ZXJfEA9CRERhdGVGb3JtYXR0ZXISAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABHAE0AXABxAIUAkACaAKEArwDEAMYAyADJAMsAzQDPANEA2ADjAOsA7QDvAPEA8wD1AQkBDAERARoBJQEpAT8BTAFVAVYBWAFaAV8BZAF2AYgBlAGmAasAAAAAAAACAQAAAAAAAAA1AAAAAAAAAAAAAAAAAAABvQ==
+</attribute>
+        <attribute name="movieeventholdtime" type="float">4</attribute>
+        <attribute name="movieeventdoorspeed" type="float">0.4</attribute>
+        <attribute name="moviecameraspeed" type="float">0.9</attribute>
+        <attribute name="hidetitles" type="bool">0</attribute>
+        <attribute name="hiderangebars" type="bool">0</attribute>
+        <attribute name="hidenotes" type="bool">0</attribute>
+        <attribute name="hidemedia" type="bool">0</attribute>
+        <attribute name="hidedates" type="bool">0</attribute>
+        <attribute name="font" type="encodable">YnBsaXN0MDDUAQIDBAUIGhtUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABpAkKExRVJG51bGzUCwwNDg8QERJWTlNTaXplVk5TTmFtZVYkY2xhc3NYTlNmRmxhZ3MjQDAAAAAAAACAAoADEBBfEBZXYXlmaW5kaW5nU2Fuc0V4Ti1Cb2xk0hUWFxhYJGNsYXNzZXNaJGNsYXNzbmFtZaIYGVZOU0ZvbnRYTlNPYmplY3QSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcggRFh8oMjU6PEFHUFdeZW53eXt9lpukr7K5wscAAAAAAAABAQAAAAAAAAAcAAAAAAAAAAAAAAAAAAAA2Q==
+</attribute>
+        <attribute name="end" type="int64">1392131858</attribute>
+        <attribute name="backgroundtype" type="int16">1</attribute>
+        <attribute name="backgroundimagefittype" type="int16">1</attribute>
+        <attribute name="backgroundcolor2" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBVTlNSR0JcTlNDb2xvclNwYWNlViRjbGFzc08QJjAuNjEwMDAwMDE0MyAwLjEwOTk5OTk5OTQgMC4xNTAwMDAwMDYAEAKAAtISExQVWCRjbGFzc2VzWiRjbGFzc25hbWWiFRZXTlNDb2xvclhOU09iamVjdBIAAYagXxAPTlNLZXllZEFyY2hpdmVyCBEWHygyNTo8QEZNU2BnkJKUmaKtsLjBxgAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAADY
+</attribute>
+        <attribute name="backgroundcolor1" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBVTlNSR0JcTlNDb2xvclNwYWNlViRjbGFzc08QJzAuMjE5OTk5OTk4OCAwLjE1OTk5OTk5NjQgMC4xMjk5OTk5OTUyABACgALSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQ29sb3JYTlNPYmplY3QSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcggRFh8oMjU6PEBGTVNgZ5GTlZqjrrG5wscAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</attribute>
+        <relationship name="document" type="1/1" destination="DOCUMENT" idrefs="z115"></relationship>
+        <relationship name="rows" type="1/0" destination="ROW" idrefs="z108"></relationship>
+    </object>
+    <object type="EVENT" id="z105">
+        <attribute name="title" type="string">Virtualenv</attribute>
+        <attribute name="start" type="int64">1136145600</attribute>
+        <attribute name="showdescender" type="bool">1</attribute>
+        <attribute name="offsetformat" type="encodable">YnBsaXN0MDDUAQIDBAUIMzRUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABqgkKGSEiIyorLC1VJG51bGzXCwwNDg8QERITFBUWFxNfEBJkYXRlQ29tcG9uZW50U3R5bGVfEBFlcmFDb21wb25lbnRTdHlsZVpOUy5uYXR1cmFsWU5TLmZvcm1hdFYkY2xhc3NdTlMuYXR0cmlidXRlc18QEnRpbWVDb21wb25lbnRTdHlsZYAHgAgIgAaACYACgAjTGhsPHB4gWk5TLm9iamVjdHNXTlMua2V5c6EdgAShH4ADgAVfEBFmb3JtYXR0ZXJCZWhhdmlvchEEENIkJSYnWCRjbGFzc2VzWiRjbGFzc25hbWWjJygpXxATTlNNdXRhYmxlRGljdGlvbmFyeVxOU0RpY3Rpb25hcnlYTlNPYmplY3RQEAEQANIkJS4ypC8wMSlfEA9CRERhdGVGb3JtYXR0ZXJfEA9OU0RhdGVGb3JtYXR0ZXJbTlNGb3JtYXR0ZXJfEA9CRERhdGVGb3JtYXR0ZXISAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABHAE0AXABxAIUAkACaAKEArwDEAMYAyADJAMsAzQDPANEA2ADjAOsA7QDvAPEA8wD1AQkBDAERARoBJQEpAT8BTAFVAVYBWAFaAV8BZAF2AYgBlAGmAasAAAAAAAACAQAAAAAAAAA1AAAAAAAAAAAAAAAAAAABvQ==
+</attribute>
+        <attribute name="notes" type="string">Need project specific installation \u2600 versions. Creates a project specific working environtment from global Python install.</attribute>
+        <attribute name="imagemaxsize" type="float">200</attribute>
+        <attribute name="end" type="int64">1325448000</attribute>
+        <attribute name="color" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBVTlNSR0JcTlNDb2xvclNwYWNlViRjbGFzc08QJzAuODYwMDAwMDE0MyAwLjg1MDAwMDAyMzggMC43Nzk5OTk5NzE0ABACgALSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQ29sb3JYTlNPYmplY3QSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcggRFh8oMjU6PEBGTVNgZ5GTlZqjrrG5wscAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</attribute>
+        <relationship name="row" type="1/1" destination="ROW" idrefs="z108"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="EVENT" id="z106">
+        <attribute name="title" type="string">distutils2/packaging</attribute>
+        <attribute name="start" type="int64">1293912000</attribute>
+        <attribute name="showdescender" type="bool">1</attribute>
+        <attribute name="offsetformat" type="encodable">YnBsaXN0MDDUAQIDBAUIMzRUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABqgkKGSEiIyorLC1VJG51bGzXCwwNDg8QERITFBUWFxNfEBJkYXRlQ29tcG9uZW50U3R5bGVfEBFlcmFDb21wb25lbnRTdHlsZVpOUy5uYXR1cmFsWU5TLmZvcm1hdFYkY2xhc3NdTlMuYXR0cmlidXRlc18QEnRpbWVDb21wb25lbnRTdHlsZYAHgAgIgAaACYACgAjTGhsPHB4gWk5TLm9iamVjdHNXTlMua2V5c6EdgAShH4ADgAVfEBFmb3JtYXR0ZXJCZWhhdmlvchEEENIkJSYnWCRjbGFzc2VzWiRjbGFzc25hbWWjJygpXxATTlNNdXRhYmxlRGljdGlvbmFyeVxOU0RpY3Rpb25hcnlYTlNPYmplY3RQEAEQANIkJS4ypC8wMSlfEA9CRERhdGVGb3JtYXR0ZXJfEA9OU0RhdGVGb3JtYXR0ZXJbTlNGb3JtYXR0ZXJfEA9CRERhdGVGb3JtYXR0ZXISAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABHAE0AXABxAIUAkACaAKEArwDEAMYAyADJAMsAzQDPANEA2ADjAOsA7QDvAPEA8wD1AQkBDAERARoBJQEpAT8BTAFVAVYBWAFaAV8BZAF2AYgBlAGmAasAAAAAAAACAQAAAAAAAAA1AAAAAAAAAAAAAAAAAAABvQ==
+</attribute>
+        <attribute name="notes" type="string">Update stdlib!</attribute>
+        <attribute name="imagemaxsize" type="float">200</attribute>
+        <attribute name="end" type="int64">1325448000</attribute>
+        <attribute name="color" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBVTlNSR0JcTlNDb2xvclNwYWNlViRjbGFzc08QJzAuODYwMDAwMDE0MyAwLjg1MDAwMDAyMzggMC43Nzk5OTk5NzE0ABACgALSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQ29sb3JYTlNPYmplY3QSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcggRFh8oMjU6PEBGTVNgZ5GTlZqjrrG5wscAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</attribute>
+        <relationship name="row" type="1/1" destination="ROW" idrefs="z108"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="EVENT" id="z107">
+        <attribute name="title" type="string">improve distutils in stdlib</attribute>
+        <attribute name="start" type="int64">1167681600</attribute>
+        <attribute name="showdescender" type="bool">1</attribute>
+        <attribute name="offsetformat" type="encodable">YnBsaXN0MDDUAQIDBAUIMzRUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABqgkKGSEiIyorLC1VJG51bGzXCwwNDg8QERITFBUWFxNfEBJkYXRlQ29tcG9uZW50U3R5bGVfEBFlcmFDb21wb25lbnRTdHlsZVpOUy5uYXR1cmFsWU5TLmZvcm1hdFYkY2xhc3NdTlMuYXR0cmlidXRlc18QEnRpbWVDb21wb25lbnRTdHlsZYAHgAgIgAaACYACgAjTGhsPHB4gWk5TLm9iamVjdHNXTlMua2V5c6EdgAShH4ADgAVfEBFmb3JtYXR0ZXJCZWhhdmlvchEEENIkJSYnWCRjbGFzc2VzWiRjbGFzc25hbWWjJygpXxATTlNNdXRhYmxlRGljdGlvbmFyeVxOU0RpY3Rpb25hcnlYTlNPYmplY3RQEAEQANIkJS4ypC8wMSlfEA9CRERhdGVGb3JtYXR0ZXJfEA9OU0RhdGVGb3JtYXR0ZXJbTlNGb3JtYXR0ZXJfEA9CRERhdGVGb3JtYXR0ZXISAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABHAE0AXABxAIUAkACaAKEArwDEAMYAyADJAMsAzQDPANEA2ADjAOsA7QDvAPEA8wD1AQkBDAERARoBJQEpAT8BTAFVAVYBWAFaAV8BZAF2AYgBlAGmAasAAAAAAAACAQAAAAAAAAA1AAAAAAAAAAAAAAAAAAABvQ==
+</attribute>
+        <attribute name="notes" type="string">Doesn't work out. :(</attribute>
+        <attribute name="imagemaxsize" type="float">200</attribute>
+        <attribute name="end" type="int64">1230840000</attribute>
+        <attribute name="color" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBVTlNSR0JcTlNDb2xvclNwYWNlViRjbGFzc08QJzAuODYwMDAwMDE0MyAwLjg1MDAwMDAyMzggMC43Nzk5OTk5NzE0ABACgALSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQ29sb3JYTlNPYmplY3QSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcggRFh8oMjU6PEBGTVNgZ5GTlZqjrrG5wscAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</attribute>
+        <relationship name="row" type="1/1" destination="ROW" idrefs="z108"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ROW" id="z108">
+        <attribute name="title" type="string">Python Packaging</attribute>
+        <attribute name="ordernumber" type="int16">1</attribute>
+        <attribute name="labelstyle" type="int16">1</attribute>
+        <attribute name="foundationheight" type="float">85</attribute>
+        <attribute name="foundationcolor" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBXTlNXaGl0ZVxOU0NvbG9yU3BhY2VWJGNsYXNzTjEgMC4yMDAwMDAwMDMAEASAAtISExQVWCRjbGFzc2VzWiRjbGFzc25hbWWiFRZXTlNDb2xvclhOU09iamVjdBIAAYagXxAPTlNLZXllZEFyY2hpdmVyCBEWHygyNTo8QEZNVWJpeHp8gYqVmKCprgAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAADA
+</attribute>
+        <attribute name="fontcolor" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBXTlNXaGl0ZVxOU0NvbG9yU3BhY2VWJGNsYXNzTxAPMSAwLjYwMDAwMDAyMzgAEASAAtISExQVWCRjbGFzc2VzWiRjbGFzc25hbWWiFRZXTlNDb2xvclhOU09iamVjdBIAAYagXxAPTlNLZXllZEFyY2hpdmVyCBEWHygyNTo8QEZNVWJpe31/hI2Ym6OssQAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAADD
+</attribute>
+        <attribute name="datelinestyle" type="int16">0</attribute>
+        <relationship name="chart" type="1/1" destination="CHART" idrefs="z104"></relationship>
+        <relationship name="events" type="0/0" destination="EVENT" idrefs="z103 z110 z109 z112 z111 z102 z107 z106 z105 z114"></relationship>
+    </object>
+    <object type="EVENT" id="z109">
+        <attribute name="title" type="string">Distribute</attribute>
+        <attribute name="start" type="int64">1230840000</attribute>
+        <attribute name="showdescender" type="bool">1</attribute>
+        <attribute name="offsetformat" type="encodable">YnBsaXN0MDDUAQIDBAUIMzRUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABqgkKGSEiIyorLC1VJG51bGzXCwwNDg8QERITFBUWFxNfEBJkYXRlQ29tcG9uZW50U3R5bGVfEBFlcmFDb21wb25lbnRTdHlsZVpOUy5uYXR1cmFsWU5TLmZvcm1hdFYkY2xhc3NdTlMuYXR0cmlidXRlc18QEnRpbWVDb21wb25lbnRTdHlsZYAHgAgIgAaACYACgAjTGhsPHB4gWk5TLm9iamVjdHNXTlMua2V5c6EdgAShH4ADgAVfEBFmb3JtYXR0ZXJCZWhhdmlvchEEENIkJSYnWCRjbGFzc2VzWiRjbGFzc25hbWWjJygpXxATTlNNdXRhYmxlRGljdGlvbmFyeVxOU0RpY3Rpb25hcnlYTlNPYmplY3RQEAEQANIkJS4ypC8wMSlfEA9CRERhdGVGb3JtYXR0ZXJfEA9OU0RhdGVGb3JtYXR0ZXJbTlNGb3JtYXR0ZXJfEA9CRERhdGVGb3JtYXR0ZXISAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABHAE0AXABxAIUAkACaAKEArwDEAMYAyADJAMsAzQDPANEA2ADjAOsA7QDvAPEA8wD1AQkBDAERARoBJQEpAT8BTAFVAVYBWAFaAV8BZAF2AYgBlAGmAasAAAAAAAACAQAAAAAAAAA1AAAAAAAAAAAAAAAAAAABvQ==
+</attribute>
+        <attribute name="notes" type="string">Fork setuptools, get it into stdlib.</attribute>
+        <attribute name="imagemaxsize" type="float">200</attribute>
+        <attribute name="end" type="int64">1293912000</attribute>
+        <attribute name="color" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBVTlNSR0JcTlNDb2xvclNwYWNlViRjbGFzc08QJzAuODYwMDAwMDE0MyAwLjg1MDAwMDAyMzggMC43Nzk5OTk5NzE0ABACgALSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQ29sb3JYTlNPYmplY3QSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcggRFh8oMjU6PEBGTVNgZ5GTlZqjrrG5wscAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</attribute>
+        <relationship name="row" type="1/1" destination="ROW" idrefs="z108"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="EVENT" id="z110">
+        <attribute name="title" type="string">Buildout</attribute>
+        <attribute name="start" type="int64">1136145600</attribute>
+        <attribute name="showdescender" type="bool">1</attribute>
+        <attribute name="offsetformat" type="encodable">YnBsaXN0MDDUAQIDBAUIMzRUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABqgkKGSEiIyorLC1VJG51bGzXCwwNDg8QERITFBUWFxNfEBJkYXRlQ29tcG9uZW50U3R5bGVfEBFlcmFDb21wb25lbnRTdHlsZVpOUy5uYXR1cmFsWU5TLmZvcm1hdFYkY2xhc3NdTlMuYXR0cmlidXRlc18QEnRpbWVDb21wb25lbnRTdHlsZYAHgAgIgAaACYACgAjTGhsPHB4gWk5TLm9iamVjdHNXTlMua2V5c6EdgAShH4ADgAVfEBFmb3JtYXR0ZXJCZWhhdmlvchEEENIkJSYnWCRjbGFzc2VzWiRjbGFzc25hbWWjJygpXxATTlNNdXRhYmxlRGljdGlvbmFyeVxOU0RpY3Rpb25hcnlYTlNPYmplY3RQEAEQANIkJS4ypC8wMSlfEA9CRERhdGVGb3JtYXR0ZXJfEA9OU0RhdGVGb3JtYXR0ZXJbTlNGb3JtYXR0ZXJfEA9CRERhdGVGb3JtYXR0ZXISAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABHAE0AXABxAIUAkACaAKEArwDEAMYAyADJAMsAzQDPANEA2ADjAOsA7QDvAPEA8wD1AQkBDAERARoBJQEpAT8BTAFVAVYBWAFaAV8BZAF2AYgBlAGmAasAAAAAAAACAQAAAAAAAAA1AAAAAAAAAAAAAAAAAAABvQ==
+</attribute>
+        <attribute name="notes" type="string">Need project specific installation \u2600 versions. Create a full Python environment with depencencies from INSTALL.txt.</attribute>
+        <attribute name="imagemaxsize" type="float">200</attribute>
+        <attribute name="end" type="int64">1325448000</attribute>
+        <attribute name="color" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBVTlNSR0JcTlNDb2xvclNwYWNlViRjbGFzc08QJzAuODYwMDAwMDE0MyAwLjg1MDAwMDAyMzggMC43Nzk5OTk5NzE0ABACgALSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQ29sb3JYTlNPYmplY3QSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcggRFh8oMjU6PEBGTVNgZ5GTlZqjrrG5wscAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</attribute>
+        <relationship name="row" type="1/1" destination="ROW" idrefs="z108"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="EVENT" id="z111">
+        <attribute name="title" type="string">Distutils SIG</attribute>
+        <attribute name="start" type="int64">883684800</attribute>
+        <attribute name="showdescender" type="bool">1</attribute>
+        <attribute name="offsetformat" type="encodable">YnBsaXN0MDDUAQIDBAUIMzRUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABqgkKGSEiIyorLC1VJG51bGzXCwwNDg8QERITFBUWFxNfEBJkYXRlQ29tcG9uZW50U3R5bGVfEBFlcmFDb21wb25lbnRTdHlsZVpOUy5uYXR1cmFsWU5TLmZvcm1hdFYkY2xhc3NdTlMuYXR0cmlidXRlc18QEnRpbWVDb21wb25lbnRTdHlsZYAHgAgIgAaACYACgAjTGhsPHB4gWk5TLm9iamVjdHNXTlMua2V5c6EdgAShH4ADgAVfEBFmb3JtYXR0ZXJCZWhhdmlvchEEENIkJSYnWCRjbGFzc2VzWiRjbGFzc25hbWWjJygpXxATTlNNdXRhYmxlRGljdGlvbmFyeVxOU0RpY3Rpb25hcnlYTlNPYmplY3RQEAEQANIkJS4ypC8wMSlfEA9CRERhdGVGb3JtYXR0ZXJfEA9OU0RhdGVGb3JtYXR0ZXJbTlNGb3JtYXR0ZXJfEA9CRERhdGVGb3JtYXR0ZXISAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABHAE0AXABxAIUAkACaAKEArwDEAMYAyADJAMsAzQDPANEA2ADjAOsA7QDvAPEA8wD1AQkBDAERARoBJQEpAT8BTAFVAVYBWAFaAV8BZAF2AYgBlAGmAasAAAAAAAACAQAAAAAAAAA1AAAAAAAAAAAAAAAAAAABvQ==
+</attribute>
+        <attribute name="notes" type="string">Need CPAN! Distutils setup.py has command to create tar balls \u2600 install, etc. Added to the Python standard library in Python 1.6, released in 2000.</attribute>
+        <attribute name="imagemaxsize" type="float">200</attribute>
+        <attribute name="end" type="int64">946756800</attribute>
+        <attribute name="color" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBVTlNSR0JcTlNDb2xvclNwYWNlViRjbGFzc08QJzAuODYwMDAwMDE0MyAwLjg1MDAwMDAyMzggMC43Nzk5OTk5NzE0ABACgALSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQ29sb3JYTlNPYmplY3QSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcggRFh8oMjU6PEBGTVNgZ5GTlZqjrrG5wscAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</attribute>
+        <relationship name="row" type="1/1" destination="ROW" idrefs="z108"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="EVENT" id="z112">
+        <attribute name="title" type="string">PIP</attribute>
+        <attribute name="start" type="int64">1199217600</attribute>
+        <attribute name="showdescender" type="bool">1</attribute>
+        <attribute name="offsetformat" type="encodable">YnBsaXN0MDDUAQIDBAUIMzRUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABqgkKGSEiIyorLC1VJG51bGzXCwwNDg8QERITFBUWFxNfEBJkYXRlQ29tcG9uZW50U3R5bGVfEBFlcmFDb21wb25lbnRTdHlsZVpOUy5uYXR1cmFsWU5TLmZvcm1hdFYkY2xhc3NdTlMuYXR0cmlidXRlc18QEnRpbWVDb21wb25lbnRTdHlsZYAHgAgIgAaACYACgAjTGhsPHB4gWk5TLm9iamVjdHNXTlMua2V5c6EdgAShH4ADgAVfEBFmb3JtYXR0ZXJCZWhhdmlvchEEENIkJSYnWCRjbGFzc2VzWiRjbGFzc25hbWWjJygpXxATTlNNdXRhYmxlRGljdGlvbmFyeVxOU0RpY3Rpb25hcnlYTlNPYmplY3RQEAEQANIkJS4ypC8wMSlfEA9CRERhdGVGb3JtYXR0ZXJfEA9OU0RhdGVGb3JtYXR0ZXJbTlNGb3JtYXR0ZXJfEA9CRERhdGVGb3JtYXR0ZXISAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABHAE0AXABxAIUAkACaAKEArwDEAMYAyADJAMsAzQDPANEA2ADjAOsA7QDvAPEA8wD1AQkBDAERARoBJQEpAT8BTAFVAVYBWAFaAV8BZAF2AYgBlAGmAasAAAAAAAACAQAAAAAAAAA1AAAAAAAAAAAAAAAAAAABvQ==
+</attribute>
+        <attribute name="notes" type="string">Replace easy_install.</attribute>
+        <attribute name="imagemaxsize" type="float">200</attribute>
+        <attribute name="end" type="int64">1325448000</attribute>
+        <attribute name="color" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBVTlNSR0JcTlNDb2xvclNwYWNlViRjbGFzc08QJzAuODYwMDAwMDE0MyAwLjg1MDAwMDAyMzggMC43Nzk5OTk5NzE0ABACgALSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQ29sb3JYTlNPYmplY3QSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcggRFh8oMjU6PEBGTVNgZ5GTlZqjrrG5wscAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</attribute>
+        <relationship name="row" type="1/1" destination="ROW" idrefs="z108"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="LOOK" id="z113">
+        <attribute name="rowlabelstyle" type="int16">1</attribute>
+        <attribute name="rowfoundationheight" type="float">85</attribute>
+        <attribute name="rowfoundationcolor" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBXTlNXaGl0ZVxOU0NvbG9yU3BhY2VWJGNsYXNzTjEgMC4yMDAwMDAwMDMAEASAAtISExQVWCRjbGFzc2VzWiRjbGFzc25hbWWiFRZXTlNDb2xvclhOU09iamVjdBIAAYagXxAPTlNLZXllZEFyY2hpdmVyCBEWHygyNTo8QEZNVWJpeHp8gYqVmKCprgAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAADA
+</attribute>
+        <attribute name="rowfontcolor" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBXTlNXaGl0ZVxOU0NvbG9yU3BhY2VWJGNsYXNzTxAPMSAwLjYwMDAwMDAyMzgAEASAAtISExQVWCRjbGFzc2VzWiRjbGFzc25hbWWiFRZXTlNDb2xvclhOU09iamVjdBIAAYagXxAPTlNLZXllZEFyY2hpdmVyCBEWHygyNTo8QEZNVWJpe31/hI2Ym6OssQAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAADD
+</attribute>
+        <attribute name="eventshowdescender" type="bool">1</attribute>
+        <attribute name="eventoffsetformat" type="encodable">YnBsaXN0MDDUAQIDBAUIMzRUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABqgkKGSEiIyorLC1VJG51bGzXCwwNDg8QERITFBUWFxNfEBJkYXRlQ29tcG9uZW50U3R5bGVfEBFlcmFDb21wb25lbnRTdHlsZVpOUy5uYXR1cmFsWU5TLmZvcm1hdFYkY2xhc3NdTlMuYXR0cmlidXRlc18QEnRpbWVDb21wb25lbnRTdHlsZYAHgAgIgAaACYACgAjTGhsPHB4gWk5TLm9iamVjdHNXTlMua2V5c6EdgAShH4ADgAVfEBFmb3JtYXR0ZXJCZWhhdmlvchEEENIkJSYnWCRjbGFzc2VzWiRjbGFzc25hbWWjJygpXxATTlNNdXRhYmxlRGljdGlvbmFyeVxOU0RpY3Rpb25hcnlYTlNPYmplY3RQEAEQANIkJS4ypC8wMSlfEA9CRERhdGVGb3JtYXR0ZXJfEA9OU0RhdGVGb3JtYXR0ZXJbTlNGb3JtYXR0ZXJfEA9CRERhdGVGb3JtYXR0ZXISAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABHAE0AXABxAIUAkACaAKEArwDEAMYAyADJAMsAzQDPANEA2ADjAOsA7QDvAPEA8wD1AQkBDAERARoBJQEpAT8BTAFVAVYBWAFaAV8BZAF2AYgBlAGmAasAAAAAAAACAQAAAAAAAAA1AAAAAAAAAAAAAAAAAAABvQ==
+</attribute>
+        <attribute name="eventimagemaxsize" type="float">200</attribute>
+        <attribute name="eventcolor" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBVTlNSR0JcTlNDb2xvclNwYWNlViRjbGFzc08QJzAuODYwMDAwMDE0MyAwLjg1MDAwMDAyMzggMC43Nzk5OTk5NzE0ABACgALSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQ29sb3JYTlNPYmplY3QSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcggRFh8oMjU6PEBGTVNgZ5GTlZqjrrG5wscAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</attribute>
+        <attribute name="chartfont" type="encodable">YnBsaXN0MDDUAQIDBAUIGhtUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABpAkKExRVJG51bGzUCwwNDg8QERJWTlNTaXplVk5TTmFtZVYkY2xhc3NYTlNmRmxhZ3MjQDAAAAAAAACAAoADEBBfEBZXYXlmaW5kaW5nU2Fuc0V4Ti1Cb2xk0hUWFxhYJGNsYXNzZXNaJGNsYXNzbmFtZaIYGVZOU0ZvbnRYTlNPYmplY3QSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcggRFh8oMjU6PEFHUFdeZW53eXt9lpukr7K5wscAAAAAAAABAQAAAAAAAAAcAAAAAAAAAAAAAAAAAAAA2Q==
+</attribute>
+        <attribute name="chartbackgroundtype" type="int16">1</attribute>
+        <attribute name="chartbackgroundimagefittype" type="int16">1</attribute>
+        <attribute name="chartbackgroundcolor2" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBVTlNSR0JcTlNDb2xvclNwYWNlViRjbGFzc08QJjAuNjEwMDAwMDE0MyAwLjEwOTk5OTk5OTQgMC4xNTAwMDAwMDYAEAKAAtISExQVWCRjbGFzc2VzWiRjbGFzc25hbWWiFRZXTlNDb2xvclhOU09iamVjdBIAAYagXxAPTlNLZXllZEFyY2hpdmVyCBEWHygyNTo8QEZNU2BnkJKUmaKtsLjBxgAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAADY
+</attribute>
+        <attribute name="chartbackgroundcolor1" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBVTlNSR0JcTlNDb2xvclNwYWNlViRjbGFzc08QJzAuMjE5OTk5OTk4OCAwLjE1OTk5OTk5NjQgMC4xMjk5OTk5OTUyABACgALSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQ29sb3JYTlNPYmplY3QSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcggRFh8oMjU6PEBGTVNgZ5GTlZqjrrG5wscAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</attribute>
+    </object>
+    <object type="EVENT" id="z114">
+        <attribute name="title" type="string">Setuptools / easy_install </attribute>
+        <attribute name="start" type="int64">1072987200</attribute>
+        <attribute name="showdescender" type="bool">1</attribute>
+        <attribute name="offsetformat" type="encodable">YnBsaXN0MDDUAQIDBAUIMzRUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABqgkKGSEiIyorLC1VJG51bGzXCwwNDg8QERITFBUWFxNfEBJkYXRlQ29tcG9uZW50U3R5bGVfEBFlcmFDb21wb25lbnRTdHlsZVpOUy5uYXR1cmFsWU5TLmZvcm1hdFYkY2xhc3NdTlMuYXR0cmlidXRlc18QEnRpbWVDb21wb25lbnRTdHlsZYAHgAgIgAaACYACgAjTGhsPHB4gWk5TLm9iamVjdHNXTlMua2V5c6EdgAShH4ADgAVfEBFmb3JtYXR0ZXJCZWhhdmlvchEEENIkJSYnWCRjbGFzc2VzWiRjbGFzc25hbWWjJygpXxATTlNNdXRhYmxlRGljdGlvbmFyeVxOU0RpY3Rpb25hcnlYTlNPYmplY3RQEAEQANIkJS4ypC8wMSlfEA9CRERhdGVGb3JtYXR0ZXJfEA9OU0RhdGVGb3JtYXR0ZXJbTlNGb3JtYXR0ZXJfEA9CRERhdGVGb3JtYXR0ZXISAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABHAE0AXABxAIUAkACaAKEArwDEAMYAyADJAMsAzQDPANEA2ADjAOsA7QDvAPEA8wD1AQkBDAERARoBJQEpAT8BTAFVAVYBWAFaAV8BZAF2AYgBlAGmAasAAAAAAAACAQAAAAAAAAA1AAAAAAAAAAAAAAAAAAABvQ==
+</attribute>
+        <attribute name="notes" type="string">Huge set of extensions to distutils, including easy_install.py \u2600 binary eggs.</attribute>
+        <attribute name="imagemaxsize" type="float">200</attribute>
+        <attribute name="end" type="int64">1136145600</attribute>
+        <attribute name="color" type="encodable">YnBsaXN0MDDUAQIDBAUIFxhUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABowkKEVUkbnVsbNMLDA0ODxBVTlNSR0JcTlNDb2xvclNwYWNlViRjbGFzc08QJzAuODYwMDAwMDE0MyAwLjg1MDAwMDAyMzggMC43Nzk5OTk5NzE0ABACgALSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQ29sb3JYTlNPYmplY3QSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcggRFh8oMjU6PEBGTVNgZ5GTlZqjrrG5wscAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</attribute>
+        <relationship name="row" type="1/1" destination="ROW" idrefs="z108"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="DOCUMENT" id="z115">
+        <attribute name="useautolayout" type="bool">1</attribute>
+        <attribute name="pagespanning" type="int16">1</attribute>
+        <attribute name="pageattributes" type="encodable">YnBsaXN0MDDUAQIDBAUISUpUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9v
+dIABrxAWCQoRJygpKissLS4vMDEyMzQ1Nj1BRVUkbnVsbNMLDA0ODxBcTlNBdHRyaWJ1dGVzXk5TUE1QYWdlRm9ybWF0ViRjbGFzc4ACgBOAFdMSEw0UHSZaTlMub2JqZWN0c1dOUy5rZXlzqBUWFxcZGhscgAuADIANgA2ADoAPgBCAEageHyAhIiMkJYADgASABYAGgAeACIAJgAqAEl8QFU5TSG9yaXpvbmFsUGFnaW5hdGlvbl1OU1JpZ2h0TWFyZ2luXxAWTlNIb3Jpem9udGFsbHlDZW50ZXJlZF8QFE5TVmVydGljYWxseUNlbnRlcmVkW05TVG9wTWFyZ2luXE5TTGVmdE1hcmdpbl8QFE5TVmVydGljYWxQYWdpbmF0aW9uXk5TQm90dG9tTWFyZ2luEAIiQpAAAAkiQrQAACJCkAAAEAAiQrQAANI3ODk6WCRjbGFzc2VzWiRjbGFzc25hbWWjOjs8XxATTlNNdXRhYmxlRGljdGlvbmFyeVxOU0RpY3Rpb25hcnlYTlNPYmplY3TSPg0/QFdOUy5kYXRhTxEYIDw/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IlVURi04Ij8+CjwhRE9DVFlQRSBwbGlzdCBQVUJMSUMgIi0vL0FwcGxlLy9EVEQgUExJU1QgMS4wLy9FTiIgImh0dHA6Ly93d3cuYXBwbGUuY29tL0RURHMvUHJvcGVydHlMaXN0LTEuMC5kdGQiPgo8cGxpc3QgdmVyc2lvbj0iMS4wIj4KPGRpY3Q+Cgk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNSG9yaXpvbnRhbFJlczwva2V5PgoJPGRpY3Q+CgkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQk8c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJPGFycmF5PgoJCQk8ZGljdD4KCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1Ib3Jpem9udGFsUmVzPC9rZXk+CgkJCQk8cmVhbD43MjwvcmVhbD4KCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCTwvZGljdD4KCQk8L2FycmF5PgoJPC9kaWN0PgoJPGtleT5jb20uYXBwbGUucHJpbnQuUGFnZUZvcm1hdC5QTU9yaWVudGF0aW9uPC9rZXk+Cgk8ZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQk8YXJyYXk+CgkJCTxkaWN0PgoJCQkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFnZUZvcm1hdC5QTU9yaWVudGF0aW9uPC9rZXk+CgkJCQk8aW50ZWdlcj4xPC9pbnRlZ2VyPgoJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJPC9kaWN0PgoJCTwvYXJyYXk+Cgk8L2RpY3Q+Cgk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNU2NhbGluZzwva2V5PgoJPGRpY3Q+CgkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQk8c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJPGFycmF5PgoJCQk8ZGljdD4KCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1TY2FsaW5nPC9rZXk+CgkJCQk8cmVhbD4xPC9yZWFsPgoJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJPC9kaWN0PgoJCTwvYXJyYXk+Cgk8L2RpY3Q+Cgk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNVmVydGljYWxSZXM8L2tleT4KCTxkaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCTxhcnJheT4KCQkJPGRpY3Q+CgkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNVmVydGljYWxSZXM8L2tleT4KCQkJCTxyZWFsPjcyPC9yZWFsPgoJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJPC9kaWN0PgoJCTwvYXJyYXk+Cgk8L2RpY3Q+Cgk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNVmVydGljYWxTY2FsaW5nPC9rZXk+Cgk8ZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQk8YXJyYXk+CgkJCTxkaWN0PgoJCQkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFnZUZvcm1hdC5QTVZlcnRpY2FsU2NhbGluZzwva2V5PgoJCQkJPHJlYWw+MTwvcmVhbD4KCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCTwvZGljdD4KCQk8L2FycmF5PgoJPC9kaWN0PgoJPGtleT5jb20uYXBwbGUucHJpbnQuc3ViVGlja2V0LnBhcGVyX2luZm9fdGlja2V0PC9rZXk+Cgk8ZGljdD4KCQk8a2V5PlBNUFBEUGFwZXJDb2RlTmFtZTwva2V5PgoJCTxkaWN0PgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCQk8c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCQk8YXJyYXk+CgkJCQk8ZGljdD4KCQkJCQk8a2V5PlBNUFBEUGFwZXJDb2RlTmFtZTwva2V5PgoJCQkJCTxzdHJpbmc+TGV0dGVyPC9zdHJpbmc+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQk8L2RpY3Q+CgkJCTwvYXJyYXk+CgkJPC9kaWN0PgoJCTxrZXk+UE1UaW9nYVBhcGVyTmFtZTwva2V5PgoJCTxkaWN0PgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCQk8c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCQk8YXJyYXk+CgkJCQk8ZGljdD4KCQkJCQk8a2V5PlBNVGlvZ2FQYXBlck5hbWU8L2tleT4KCQkJCQk8c3RyaW5nPm5hLWxldHRlcjwvc3RyaW5nPgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJPC9kaWN0PgoJCQk8L2FycmF5PgoJCTwvZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNQWRqdXN0ZWRQYWdlUmVjdDwva2V5PgoJCTxkaWN0PgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCQk8c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCQk8YXJyYXk+CgkJCQk8ZGljdD4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNQWRqdXN0ZWRQYWdlUmVjdDwva2V5PgoJCQkJCTxhcnJheT4KCQkJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJCQkJPHJlYWw+NzM0PC9yZWFsPgoJCQkJCQk8cmVhbD41NzY8L3JlYWw+CgkJCQkJPC9hcnJheT4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJCTwvZGljdD4KCQkJPC9hcnJheT4KCQk8L2RpY3Q+CgkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFnZUZvcm1hdC5QTUFkanVzdGVkUGFwZXJSZWN0PC9rZXk+CgkJPGRpY3Q+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJCTxhcnJheT4KCQkJCTxkaWN0PgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1BZGp1c3RlZFBhcGVyUmVjdDwva2V5PgoJCQkJCTxhcnJheT4KCQkJCQkJPHJlYWw+LTE4PC9yZWFsPgoJCQkJCQk8cmVhbD4tMTg8L3JlYWw+CgkJCQkJCTxyZWFsPjc3NDwvcmVhbD4KCQkJCQkJPHJlYWw+NTk0PC9yZWFsPgoJCQkJCTwvYXJyYXk+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQk8L2RpY3Q+CgkJCTwvYXJyYXk+CgkJPC9kaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhcGVySW5mby5QTVBhcGVyTmFtZTwva2V5PgoJCTxkaWN0PgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCQk8c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCQk8YXJyYXk+CgkJCQk8ZGljdD4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYXBlckluZm8uUE1QYXBlck5hbWU8L2tleT4KCQkJCQk8c3RyaW5nPm5hLWxldHRlcjwvc3RyaW5nPgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJPC9kaWN0PgoJCQk8L2FycmF5PgoJCTwvZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYXBlckluZm8uUE1VbmFkanVzdGVkUGFnZVJlY3Q8L2tleT4KCQk8ZGljdD4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQkJPGFycmF5PgoJCQkJPGRpY3Q+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFwZXJJbmZvLlBNVW5hZGp1c3RlZFBhZ2VSZWN0PC9rZXk+CgkJCQkJPGFycmF5PgoJCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJCQk8cmVhbD43MzQ8L3JlYWw+CgkJCQkJCTxyZWFsPjU3NjwvcmVhbD4KCQkJCQk8L2FycmF5PgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJPC9kaWN0PgoJCQk8L2FycmF5PgoJCTwvZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYXBlckluZm8uUE1VbmFkanVzdGVkUGFwZXJSZWN0PC9rZXk+CgkJPGRpY3Q+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJCTxhcnJheT4KCQkJCTxkaWN0PgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhcGVySW5mby5QTVVuYWRqdXN0ZWRQYXBlclJlY3Q8L2tleT4KCQkJCQk8YXJyYXk+CgkJCQkJCTxyZWFsPi0xODwvcmVhbD4KCQkJCQkJPHJlYWw+LTE4PC9yZWFsPgoJCQkJCQk8cmVhbD43NzQ8L3JlYWw+CgkJCQkJCTxyZWFsPjU5NDwvcmVhbD4KCQkJCQk8L2FycmF5PgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJPC9kaWN0PgoJCQk8L2FycmF5PgoJCTwvZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYXBlckluZm8ucHBkLlBNUGFwZXJOYW1lPC9rZXk+CgkJPGRpY3Q+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJCTxhcnJheT4KCQkJCTxkaWN0PgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhcGVySW5mby5wcGQuUE1QYXBlck5hbWU8L2tleT4KCQkJCQk8c3RyaW5nPlVTIExldHRlcjwvc3RyaW5nPgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJPC9kaWN0PgoJCQk8L2FycmF5PgoJCTwvZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuQVBJVmVyc2lvbjwva2V5PgoJCTxzdHJpbmc+MDAuMjA8L3N0cmluZz4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQudHlwZTwva2V5PgoJCTxzdHJpbmc+Y29tLmFwcGxlLnByaW50LlBhcGVySW5mb1RpY2tldDwvc3RyaW5nPgoJPC9kaWN0PgoJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LkFQSVZlcnNpb248L2tleT4KCTxzdHJpbmc+MDAuMjA8L3N0cmluZz4KCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC50eXBlPC9rZXk+Cgk8c3RyaW5nPmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0VGlja2V0PC9zdHJpbmc+CjwvZGljdD4KPC9wbGlzdD4KgBTSNzhCQ6NDRDxdTlNNdXRhYmxlRGF0YVZOU0RhdGHSNzhGSKJHPFtOU1ByaW50SW5mb1tOU1ByaW50SW5mbxIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AFUAWwBiAG8AfgCFAIcAiQCLAJIAnQClAK4AsACyALQAtgC4ALoAvAC+AMcAyQDLAM0AzwDRANMA1QDXANkA8QD/ARgBLwE7AUgBXwFuAXABdQF2AXsBgAGCAYcBjAGVAaABpAG6AccB0AHVAd0aARoDGggaDBoaGiEaJhopGjUaQRpGAAAAAAAAAgEAAAAAAAAASwAAAAAAAAAAAAAAAAAAGlg=
+</attribute>
+        <attribute name="overlappercent" type="int16">0</attribute>
+        <attribute name="movieusescore" type="bool">1</attribute>
+        <attribute name="movieuseautonarration" type="bool">0</attribute>
+        <attribute name="moviemotionblurquality" type="int16">0</attribute>
+        <attribute name="moviebeedocslogo" type="bool">1</attribute>
+        <attribute name="margintop" type="decimal">0.25</attribute>
+        <attribute name="marginright" type="decimal">0.25</attribute>
+        <attribute name="marginleft" type="decimal">0.25</attribute>
+        <attribute name="marginheader" type="decimal">0.5</attribute>
+        <attribute name="marginfooter" type="decimal">0.5</attribute>
+        <attribute name="marginbottom" type="decimal">0.5555556</attribute>
+        <attribute name="datetype" type="int16">0</attribute>
+        <relationship name="chart" type="1/1" destination="CHART" idrefs="z104"></relationship>
+    </object>
+</database>
