@@ -1,0 +1,12 @@
+* run redis-cli -h IPADDRESS
+  set "foo" "bar" / get "foo" (other users?)
+  set "NAME:foo" "bar" /  get "NAME:foo"
+* same from python:
+  import redis
+  r = redis.Redis('IPADDRESS')
+  r.set("foo", "bar")
+  r.get("foo")
+* publish a message to "messages" and see if it shows up anywhere. ;)
+* add a URL to "queue:urls"
+* bonus: run worker and/or subscriber on your machine
+* double bonus: add your own data, etc
