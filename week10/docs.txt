@@ -1,0 +1,10 @@
+
+This is the best CURL wrapper EVAR.
+
+To use it...
+
+>>> import fetcher
+>>> url = 'http://www.google.com'
+>>> data = fetcher.fetch(url)
+>>>
+
